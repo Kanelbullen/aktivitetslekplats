@@ -23,7 +23,7 @@ function Navbar() {
         <ul className=" py-2 rounded-full w-3/5 text-center mx-auto bg-slate-200">Badges</ul>
         <ul className=" py-2 rounded-full w-3/5 text-center mx-auto bg-slate-200">Parker</ul>
       </div>
-      <div className=" bg-white flex flex-row align-top gap-10">
+      <div className=" flex flex-row align-top gap-10">
         <div className="px-4 py-8">
           <RxHamburgerMenu
             color="black"
