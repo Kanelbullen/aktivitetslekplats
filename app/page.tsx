@@ -4,6 +4,7 @@ import Hero from "./hero";
 import playground from "./assets/playgroundHero.jpg";
 import Image from "next/image";
 import Footer from "./footer.jsx";
+import ParksComponent from "./parksComponent/parksComponent.jsx";
 
 export default function Home() {
   return (
@@ -17,7 +18,9 @@ export default function Home() {
           <Navbar />
           <Hero />
         </div>
+        <ParksComponent />
         <Footer />
+
       </div>
   );
 }

@@ -1,9 +1,13 @@
 import React from 'react'
 
-const parksComponent = () => {
+const ParksComponent = () => {
   return (
-    <div>parksComponent</div>
+    <div className='flex flex-row gap-7 mx-6'>
+        <div className='text-xl underline underline-offset-1'>Karta</div>
+        <div className='text-xl underline underline-offset-1'>Lista</div>
+    </div>
+
   )
 }
 
-export default parksComponent
+export default ParksComponent
