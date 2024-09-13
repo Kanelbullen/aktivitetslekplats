@@ -1,5 +1,5 @@
 import React from "react";
-import logoGBG from "./assets/logo-gbg.svg";
+import logoGBG from "../assets/logo-gbg.svg";
 import Image from "next/image";
 
 const Footer = () => {

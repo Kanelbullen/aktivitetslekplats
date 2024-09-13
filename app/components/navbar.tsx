@@ -1,7 +1,7 @@
 "use client";
 import { RxHamburgerMenu } from "react-icons/rx";
 import { IoClose } from "react-icons/io5";
-import logoGBG from "./assets/logo-gbg.svg";
+import logoGBG from "../assets/logo-gbg.svg";
 import Image from "next/image";
 import { useState, CSSProperties } from "react";
 import React from "react";
