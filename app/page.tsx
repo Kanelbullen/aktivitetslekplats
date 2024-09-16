@@ -1,22 +1,27 @@
-import Navbar from "./navbar";
+import Navbar from "./components/navbar";
 import React from "react";
-import Hero from "./hero";
+import Hero from "./components/hero";
 import playground from "./assets/playgroundHero.jpg";
 import Image from "next/image";
+import Footer from "./components/footer";
+import ParksComponent from "./components/parksComponent/parksComponent";
 
 export default function Home() {
   return (
-    <main className="w-full relative">
-      <div className="max-w-sm mx-auto h-full">
+      <div className=" mx-auto">
         <Image
           src={playground}
           alt="Playground"
-          className="absolute z-[-1] max-w-sm mx-auto rounded-b-3xl"
+          className="absolute z-[-1] mx-auto rounded-b-3xl object-cover h-[100vh]"
         />
-        <Navbar />
-        <Hero />
+        <div className="h-[100vh] flex flex-col">
+          <Navbar />
+          <Hero />
+        </div>
+        <ParksComponent />
+        <Footer />
+
       </div>
-    </main>
   );
 }
 

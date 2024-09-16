@@ -1,7 +1,7 @@
 "use client";
 import { RxHamburgerMenu } from "react-icons/rx";
 import { IoClose } from "react-icons/io5";
-import logoGBG from "./assets/logo-gbg.svg";
+import logoGBG from "../assets/logo-gbg.svg";
 import Image from "next/image";
 import { useState, CSSProperties } from "react";
 import React from "react";
@@ -17,8 +17,8 @@ function Navbar() {
   };
   return (
     <div>
-      <div style={menuStyle} className="absolute flex flex-col pb-9 pt-3 gap-4 w-[384px] text-black rounded-b-3xl bg-slate-500">
-        <IoClose onClick={toggleMenu} size={50} className="mx-4"/>
+      <div style={menuStyle} className="absolute flex flex-col pb-9 pt-3 gap-4 w-full text-black rounded-b-3xl bg-slate-500">
+        <IoClose onClick={toggleMenu} size={50} className="mx-4 bg-slate-200 rounded-lg"/>
         <ul className=" py-2 rounded-full w-3/5 text-center mx-auto bg-slate-200">Hem</ul>
         <ul className=" py-2 rounded-full w-3/5 text-center mx-auto bg-slate-200">Badges</ul>
         <ul className=" py-2 rounded-full w-3/5 text-center mx-auto bg-slate-200">Parker</ul>
