@@ -1,6 +1,8 @@
 {
   "compilerOptions": {
-    "lib": ["dom", "dom.iterable", "esnext"],
+    "target": "es2015", // Eller högre, t.ex. "es2017" eller "esnext"
+    "lib": ["dom", "es2015"], // Lägg till relevanta bibliotek
+    "downlevelIteration": true, // Tillåt iteration över iterable objekt
     "allowJs": true,
     "skipLibCheck": true,
     "checkJs": true,

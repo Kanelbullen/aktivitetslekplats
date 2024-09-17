@@ -11,9 +11,9 @@ const ParksComponent = () => {
 
 let activeElement;
 if (parkSwitch === 0) {
-  activeElement = <ParkMap />;
+  activeElement = <ParkMap/>
 } else if (parkSwitch === 1) {
-activeElement = <ParkList/> ; // Fixed: import parkMap component
+activeElement = <ParkList/>  // Fixed: import parkMap component
 }
 
   return (
