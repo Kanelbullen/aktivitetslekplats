@@ -5,8 +5,10 @@ import playground from "./assets/playgroundHero.jpg";
 import Image from "next/image";
 import Footer from "./components/footer";
 import ParksComponent from "./components/parksComponent/parksComponent";
+import { useRouter } from "next/router";
 
 export default function Home() {
+
   return (
       <div className=" mx-auto">
         <Image
