@@ -1,8 +1,13 @@
+
 import React from 'react'
+import ParkListPage from './parkCard'
 
 const ParkCardList = () => {
+
   return (
-    <div>parkCardList</div>
+    <div>
+      <ParkListPage/>
+    </div>
   )
 }
 
