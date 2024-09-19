@@ -31,7 +31,7 @@ const parkmap = () => {
   }, []);
 
   return (
-    <div style={{ height: '600px', width: '400px',  }} ref={mapRef}/>
+    <div className="h-[60vh] rounded-lg" ref={mapRef}/>
   );
 };
 

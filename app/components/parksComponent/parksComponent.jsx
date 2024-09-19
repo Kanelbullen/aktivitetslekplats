@@ -17,10 +17,10 @@ activeElement = <ParkList/>  // Fixed: import parkMap component
 }
 
   return (
-    <div>
-      <div className='flex flex-row gap-7 mx-6'>
-          <div onClick={setMap} className='text-xl underline underline-offset-1'>Karta</div>
-          <div onClick={setList} className='text-xl underline underline-offset-1'>Lista</div>
+    <div className=' w-11/12 mx-auto m-3' >
+      <div className='flex flex-row gap-7'>
+          <div onClick={setMap} className='text-black text-xl underline underline-offset-1 hover:font-se'>Karta</div>
+          <div onClick={setList} className='text-black text-xl underline underline-offset-1 hover:font-se'>Lista</div>
       </div>
       {activeElement}
     </div>

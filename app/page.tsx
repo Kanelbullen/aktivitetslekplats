@@ -20,7 +20,7 @@ export default function Home() {
           <Navbar />
           <Hero />
         </div>
-        <ParksComponent />
+        <ParksComponent/>
         <Footer />
 
       </div>

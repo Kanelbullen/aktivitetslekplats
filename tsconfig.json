@@ -24,6 +24,6 @@
       "@/*": ["./*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "app/components/parksComponent/parkmap.jsx", "app/components/parksComponent/parkCard.jsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "app/components/parksComponent/parkmap.jsx", "app/components/parksComponent/parkCardList.tsx"],
   "exclude": ["node_modules"]
 }
