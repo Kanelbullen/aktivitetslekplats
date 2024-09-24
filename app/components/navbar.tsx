@@ -5,6 +5,7 @@ import logoGBG from "../assets/logo-gbg.svg";
 import Image from "next/image";
 import { useState, CSSProperties } from "react";
 import React from "react";
+import Link from "next/link";
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -22,10 +23,10 @@ function Navbar() {
 
             <IoClose onClick={toggleMenu} size={50} className="  mx-auto my-2 rounded-lg "/>
 
-          <ul className="flex flex-col col-span-4 my-2 gap-3">
-            <li className="w-full h-[50px] content-center rounded-full  text-center mx-auto bg-slate-200">Hem</li>
-            <li className="w-full h-[50px] content-center rounded-full  text-center mx-auto bg-slate-200">Badges</li>
-            <li className="w-full h-[50px] content-center rounded-full  text-center mx-auto bg-slate-200">Parker</li>
+          <ul className="flex flex-col col-span-4 my-2 mt-14 gap-3">
+            <Link href="/" onClick={toggleMenu} className="w-full h-[50px] content-center rounded-xl  text-center text-xl  mx-auto bg-slate-200">Hem</Link>
+            <li className="w-full h-[50px] content-center rounded-xl text-center text-xl  mx-auto bg-slate-200">Badges</li>
+            <li className="w-full h-[50px] content-center rounded-xl text-center text-xl  mx-auto bg-slate-200">Parker</li>
           </ul>
         </div>
       </div>

@@ -3,7 +3,7 @@ import { FaChevronDown } from "react-icons/fa6";
 
 const Hero = () => {
   return (
-    <div className="text-white flex flex-col h-full">
+    <div className="text-white flex flex-col h-[87vh]">
       <div className="w-full text-center flex items-center h-[80%] justify-center text-black text-3xl">
         "Enkelt att ha kul"
       </div>
